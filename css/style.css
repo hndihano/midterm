@@ -1,0 +1,157 @@
+*{
+    margin: 0 ;
+    box-sizing: border-box;
+
+
+}
+
+nav{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: grey;
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 22px;
+}
+body{
+    background-color: red;
+
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    top: 100px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: relative;
+    margin-bottom: 20px;
+
+
+}
+h2{
+    text-align: center;
+    color: white;
+    top: 100px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: relative;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    color: white;
+    top: 100px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+pic{
+    height: 200px;
+    float: bottom;
+    display: block;
+    margin-bottom: 20px;
+
+}
+.container {
+    width: 100%;
+    height: auto;
+    background: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 10px;
+}
+.box1{
+    width: 20%;
+    height: 300px;
+    margin-bottom: 20px;
+    background-image: url("../pic/meme1.jpeg");
+
+}
+
+.box2{
+    width: 20%;
+    height: 300px;
+    margin-bottom: 20px;
+    background-image: url("../pic/meme2.jpeg");
+
+}
+
+.box3 {
+    width: 20%;
+    height: 300px;
+    margin-bottom: 20px;
+    background-image: url("../pic/meme3.jpeg");
+}
+
+
+.box4 {
+    width: 20%;
+    height: 300px;
+    margin-bottom: 20px;
+    background-image: url("../pic/funny-game-of-thrones-memes-coverimage.jpeg");
+}
+
+@media screen and ( max-width: 800px){
+    .box1{
+        width: 70%;
+    }
+    .container{
+        display: flex;
+        background-color: green;
+
+    }
+}
+
+@media screen and ( max-width: 800px){
+    .box2{
+        width: 70%;
+    }
+    .container{
+        display: flex;
+        background-color: green;
+
+
+    }
+}
+@media screen and ( max-width: 800px){
+    .box3{
+        width: 70%;
+    }
+    .container{
+        display: flex;
+        background-color: green;
+
+    }
+}
+@media screen and ( max-width: 800px){
+    .box4{
+        width: 70%;
+    }
+    .container{
+        display: flex;
+        background-color: green;
+
+
+    }
+}
